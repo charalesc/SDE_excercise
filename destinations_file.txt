@@ -1,0 +1,11 @@
+
+The format it's like this.-
+
+street;interior_number;exterior_number
+
+It has some resilence to errors here, the separator symbol has to be ; if not it can not correctly read the file
+
+Av Fray Luis de Leon;;
+Uno;2;3
+Av Luis Vega y Monrroy;1001;12
+1;dos;tres

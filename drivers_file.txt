@@ -1,0 +1,11 @@
+
+The format it's like this.-
+
+name;company
+
+It has some resilence to errors here, the separator symbol has to be ; if not it can not correctly read the file
+
+Patito uno;Alekos
+Patito;ACME
+1;2
+carlos
