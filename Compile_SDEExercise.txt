@@ -1,0 +1,44 @@
+
+Install Go compiler
+Download from https://go.dev/dl/
+Instructions https://go.dev/doc/install
+
+Create the route:
+Linux:
+  /Programs/Go/src/github.com/charalesc/SDE_excercise
+or
+Windows
+  D:\Programs\Go\src\github.com\charalesc\SDE_excercise
+
+Download zip file SDE_excercise-main.zip from https://github.com/charalesc/SDE_excercise
+Move the zip file to SDE_excercise
+Extract the content from SDE_excercise-main.zip/SDE_excercise-main to SDE_excercise
+Delete SDE_excercise-main.zip
+
+Execute on command line:
+
+For Windows
+set GOOS=windows
+set GOHOSTOS=windows
+set GOARCH=amd64
+set GOPATH=D:\Programs\Go
+set GO111MODULE=off
+
+For Linux
+export GOOS=linux
+export GOHOSTOS=linux
+export GOARCH=amd64
+export GOPATH=/Programs/Go
+export GO111MODULE=off
+
+To make the executable
+  go build SDE_excercise.go
+
+Execute the program
+Linux
+  ./SDE_excercise DESTINATIONS_FILE=destinations.txt DRIVERS_FILE=drivers.txt
+Windows
+  SDE_excercise.exe DESTINATIONS_FILE=destinations.txt DRIVERS_FILE=drivers.txt
+
+If you execute the program with no arguments it show the program help
+
